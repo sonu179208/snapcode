@@ -4,8 +4,6 @@
 
 Make your own custom snapcode
 
-[Live demo](https://snapcodes.herokuapp.com/)
-
 ##How it works
 
 1. Query the Snapchat API to get snapcode
@@ -17,8 +15,6 @@ Make your own custom snapcode
 7. showcase your cool snapcode :smile:
 
 ##API
-
-I made a simple php script that inserts id tag in the svg to be able to modify it via css or using javascript.
 
     <?php
         header('Access-Control-Allow-Origin: *');
@@ -40,7 +36,6 @@ I made a simple php script that inserts id tag in the svg to be able to modify i
         }
     ?>
     
-You can try my script at [https://snapcodes.herokuapp.com/snapcode.php](https://snapcodes.herokuapp.com/snapcode.php?username=jusleg&size=400)
 
 ##Modifications
 
@@ -55,7 +50,6 @@ I am using the PHP script because it inserts the necessary id and class tags to 
 
 ![guidelines](img/guidelines.png) 
 
-To read about scan guidelines, you can read [Snapchat's Snapcode Scan Guidelines](https://github.com/jusleg/snaptag/blob/master/ress/Snapcode_Guidelines.pdf)
 
 ##Gif background (Beta)
 
